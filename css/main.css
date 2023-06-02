@@ -57,6 +57,7 @@
     width: 120px;
     font-weight: normal;
     line-height: 40px;
+    padding: 12px 0;
 
     transition: 0.5s;
 }
@@ -79,7 +80,7 @@
 }
 
 .header .gnb:hover::before {
-    height: 200px;
+    height: 250px;
     background: #f9f9f9;
 }
 
@@ -94,7 +95,7 @@
 
 .main_visual .main_slide figure {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 
 .main_visual .main_slide .itm01 {
@@ -457,7 +458,7 @@
 }
 
 .sec_info .rc_box .sc_job .text>p {
-    line-height: 30px;
+    line-height: 20px;
     font-weight: 300;
 }
 
@@ -473,6 +474,8 @@
     margin: 0 0 50px 0;
 }
 
+
+
 .footer .etc_link a {
     padding: 15px;
     margin: auto 5px;
@@ -483,7 +486,9 @@
 }
 
 .footer .copy-wrap {
+    font-size: 14px;
     font-weight: 300;
+    line-height: 14px;
 }
 
 .footer .address {
